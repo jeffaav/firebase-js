@@ -1,0 +1,19 @@
+{
+  "name": "firebase-js",
+  "version": "1.0.0",
+  "description": "demo de firebase",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/jeffaav/firebase\""
+  },
+  "author": "jeffrey aguirre",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11"
+  }
+}

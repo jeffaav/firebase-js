@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        title Demo Firebase
+    body
+        h1 Inicio
+        hr
+
+        form(action="#" id="create-user")
+            p username 
+                br
+                input#username(type="text" name="username" required)
+            p password
+                br
+                input#password(type="password" name="password" required)
+            button(type="submit") Create
+
+        br
+        div
+            p Users
+            ul#user-list
+
+
+        script(src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js")
+        script(src="https://code.jquery.com/jquery-3.1.1.min.js")
+        script(src="/js/database.js")
+        script(src="/js/site.js")
